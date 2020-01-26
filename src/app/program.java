@@ -26,14 +26,14 @@ public class program {
 		char response = sc.next().charAt(0);
 
 		if (response == 'y') {
-			System.out.println("Enter initial deposit value : ");
+			System.out.println("Enter initial deposit value : "); //inicia cnta com saldo. 
 			double initialDeposit = sc.nextDouble();
 
 			account = new Account(number, holder, initialDeposit);
 		}
 
 		else {
-			account = new Account(number, holder);
+			account = new Account(number, holder); //inicia a conta sem saldo .
 		}
 
 		System.out.println();

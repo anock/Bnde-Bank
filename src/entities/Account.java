@@ -6,13 +6,13 @@ public class Account {
 	private String holder;
 	private double balance;
 	
-	public Account(int number, String holder) {
+	public Account(int number, String holder) { //metodo construtor de dois argumentos 
 		this.number = number;
 		this.holder = holder;
 	}
 
-	public Account(int number, String holder, double initialdeposit) {
-		super();
+	public Account(int number, String holder, double initialdeposit) { //metodo construtor de 3 argumentos 
+		
 		this.number = number;
 		this.holder = holder;
 		deposit(initialdeposit);
